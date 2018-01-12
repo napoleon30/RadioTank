@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutView_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_menu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <cn.sharelink.view.MenuButton
+            android:id="@+id/btn_sdRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_weight="1" />
+
+        <cn.sharelink.view.MenuButton
+            android:id="@+id/btn_snapshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            myview:background="@drawable/menu01_bg"
+            myview:isbutton="true" />
+
+        <cn.sharelink.view.MenuButton
+            android:id="@+id/btn_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            myview:background="@drawable/menu02_bg"
+            myview:isbutton="false" />
+
+        <cn.sharelink.view.MenuButton
+            android:id="@+id/btn_playback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            myview:background="@drawable/menu04_bg"
+            myview:isbutton="true" />
+
+        <cn.sharelink.view.MenuButton
+            android:id="@+id/btn_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            myview:background="@drawable/menu10_bg_01"
+            myview:isbutton="false" />
+
+      
+    </LinearLayout>
+
+</RelativeLayout>

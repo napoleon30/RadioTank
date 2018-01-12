@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Radio Tank T-72</string>
+    <string name="action_settings">Settings</string>
+    <string name="build_time">v20160808</string>
+	<string name="menu1">Snapshot</string>
+    <string name="menu2">Record</string>
+    <string name="menu3">SD Record</string>
+    <string name="menu4">Playback</string>
+    <string name="menu5">Balance</string>
+    <string name="menu6">Gravity</string>
+    <string name="menu7">Stop</string>
+    <string name="menu8">Rolling</string>
+ <!--     <string name="menu9">Landing</string> -->
+    <string name="menu10">Setting</string>
+    <string name="menu11">High Limit</string>
+  <!--     <string name="menu12">Exit</string>-->
+<!-- 	
+	<string name="menu1">拍照</string>
+    <string name="menu2">录像</string>
+    <string name="menu3">文件</string>
+    <string name="menu4">影像翻转</string>
+    <string name="menu5">SD录像</string>
+    <string name="menu6">速度</string>
+    <string name="menu7">定高</string>
+    <string name="menu8">重力控制</string>
+    <string name="menu10">翻滚</string>
+    <string name="menu11">设置</string>
+     -->
+</resources>

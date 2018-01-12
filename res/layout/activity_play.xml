@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_full"
+    android:keepScreenOn="true" >
+
+    <cn.sharelink.view.RtspVideoView
+        android:id="@+id/rtsp_videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <include layout="@layout/layout_rocker" />
+
+    <include layout="@layout/layout_menu" />
+
+
+    <include
+        layout="@layout/bottom" />
+
+    <!-- include layout="@layout/layout_trim" / -->
+
+    <RelativeLayout
+        android:id="@+id/layoutView_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

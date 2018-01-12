@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="10dp" >
+
+    <Button
+        android:id="@+id/ib_machinegun"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_gun00"
+        android:button="@null"
+        android:clickable="false" />
+
+    <Button
+        android:id="@+id/ib_cannon_en"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="36dp"
+        android:layout_toLeftOf="@+id/ib_machinegun"
+        android:background="@drawable/btn_connon00"
+        android:button="@null"
+        android:clickable="false" />
+
+    <Button
+        android:id="@+id/ib_power_en"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="38dp"
+        android:layout_toRightOf="@+id/ib_machinegun"
+        android:background="@drawable/btn_power00"
+        android:button="@null"
+        android:clickable="false" />
+
+</RelativeLayout>
